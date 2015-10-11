@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UIChatBubbleTableViewController: UITableViewController, UITableViewDataSource
+class UIChatBubbleTableViewController: UITableViewController
 {
     var cellDataArray = [ChatBubbleCellData]()
     var ifCellRegistered = false
